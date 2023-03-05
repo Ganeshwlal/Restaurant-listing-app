@@ -1,0 +1,38 @@
+    Restaurant Listing App
+
+1. Create a project - npx create-react-app   Restaurant Listing App
+2. cd   Restaurant Listing App
+3. code .
+4. In Vs-code terminal - npm start
+5. remove unwanded files
+6. install react  boostrap - npm install react-bootstrap bootstrap
+7. select template from bootswatch
+8. create component- HEADER AND Footer
+9. Create Home page - Restlist (complete array of data)
+10. create a component - Displaying array of data - Restcard(Displaying ARRAY  of data as a card format)
+11. Redirection - view a Restaurant
+12. Create a component - Viewrest
+13. Install react router dom  - npm i react-router-dom
+        import into app.js
+        import { BrowserRouter as Router, Reutes, Route } from 'react-router-dom';
+
+        Route - for setup path for a component
+        Routes - For holding all route path tag
+        Router - Hoding Routes
+
+14. useParams (hooks):-
+    Returns an object of key/value pairs of the dynamic params from the current URL that were matched by the route path.
+
+15. Create a component - Restop - for displaying opening time
+
+16. Create a component - Restrevies - for displaying the reviews
+
+
+
+
+
+
+
+
+
+
