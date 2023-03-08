@@ -20,8 +20,8 @@ function Restreview({ review }) {
                 onClick={() => setOpen(!open)}
                 aria-controls="example-collapse-text"
                 aria-expanded={open}
-            //   varient="dark"
-            className=''
+                //   varient="dark"
+                className=''
             >
                 View Comments
             </Button>
@@ -29,8 +29,8 @@ function Restreview({ review }) {
                 <Collapse in={open} dimension="width">
                     <div id="example-collapse-text">
                         <Card body style={{ width: '400px' }}>
-                        {
-                                review.map(item=>(
+                            {
+                                review.map(item => (
                                     <div >
                                         <h6>{item.name}</h6>
                                         <p>{item.rating}</p>

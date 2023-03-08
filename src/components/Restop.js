@@ -5,17 +5,17 @@ import Modal from 'react-bootstrap/Modal';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 
-function Restop({operate}) {
+function Restop({ operate }) {
 
-    console.log(operate); //dispaly the time
+  console.log(operate); //dispaly the time
 
-    
 
-    const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-  
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
 
 
 
@@ -31,24 +31,24 @@ function Restop({operate}) {
         </Modal.Header>
         <Modal.Body>
 
-       
-        <ListGroup variant="flush">
-      <ListGroup.Item>Monday : {operate.Monday}</ListGroup.Item>
-      <ListGroup.Item>Tuesday : {operate.Tuesday}</ListGroup.Item>
-      <ListGroup.Item>Wednesday : {operate.Wednesday}</ListGroup.Item>
-      <ListGroup.Item>Thursday : {operate.Thursday}</ListGroup.Item>
-      <ListGroup.Item>Friday : {operate.Friday}</ListGroup.Item>
-      <ListGroup.Item>Saturday : {operate.Saturday}</ListGroup.Item>
-      <ListGroup.Item>Sunday : {operate.Sunday}</ListGroup.Item>
 
-    </ListGroup>
-          
+          <ListGroup variant="flush">
+            <ListGroup.Item>Monday : {operate.Monday}</ListGroup.Item>
+            <ListGroup.Item>Tuesday : {operate.Tuesday}</ListGroup.Item>
+            <ListGroup.Item>Wednesday : {operate.Wednesday}</ListGroup.Item>
+            <ListGroup.Item>Thursday : {operate.Thursday}</ListGroup.Item>
+            <ListGroup.Item>Friday : {operate.Friday}</ListGroup.Item>
+            <ListGroup.Item>Saturday : {operate.Saturday}</ListGroup.Item>
+            <ListGroup.Item>Sunday : {operate.Sunday}</ListGroup.Item>
+
+          </ListGroup>
+
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-         
+
         </Modal.Footer>
       </Modal>
     </>

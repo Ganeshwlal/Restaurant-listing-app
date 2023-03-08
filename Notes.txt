@@ -28,6 +28,20 @@
 16. Create a component - Restrevies - for displaying the reviews
 
 
+REDUX
+
+1. install redux library - npm i redux react-redux redux-thunk
+
+2. create a store file - src/store.js(to hold updated states)
+
+3. Create action - src/action/restlistAction.js    - LOGIC-To fetch data from an api
+    - To fetch data, here we use axios - npm i axios
+
+4. Create constants folder - src/constants/restconstant.js
+
+5.Create Reducer folder - src/reducers/restReducer.js
+
+
 
 
 
